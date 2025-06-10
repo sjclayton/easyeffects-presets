@@ -461,7 +461,7 @@
             "alr-attack": 5.0,
             "alr-knee": 0.0,
             "alr-release": 50.0,
-            "attack": 2.5,
+            "attack": 5.0,
             "bypass": false,
             "dithering": "None",
             "external-sidechain": false,
