@@ -1,15 +1,15 @@
 {
     "output": {
         "bass_enhancer#0": {
-            "amount": 3.5000000000000013,
-            "blend": -3.0,
+            "amount": 5.999999999999995,
+            "blend": 0.0,
             "bypass": false,
             "floor": 20.0,
             "floor-active": false,
             "harmonics": 9.999999999999995,
             "input-gain": 0.0,
             "output-gain": 0.0,
-            "scope": 120.0
+            "scope": 180.0
         },
         "blocklist": [
             "Plasma PA",
@@ -52,7 +52,7 @@
             "input-gain": -4.5,
             "left": {
                 "band0": {
-                    "frequency": 80.0,
+                    "frequency": 105.0,
                     "gain": -6.0,
                     "mode": "RLC (BT)",
                     "mute": false,
@@ -64,7 +64,7 @@
                 },
                 "band1": {
                     "frequency": 150.0,
-                    "gain": 3.0,
+                    "gain": 5.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 1.2000000476837158,
@@ -86,7 +86,7 @@
                 },
                 "band3": {
                     "frequency": 1200.0,
-                    "gain": -2.000000238418579,
+                    "gain": -3.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 1.399999976158142,
@@ -97,7 +97,7 @@
                 },
                 "band4": {
                     "frequency": 4000.0,
-                    "gain": 1.499999761581421,
+                    "gain": -1.5,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 0.699999988079071,
@@ -108,7 +108,7 @@
                 },
                 "band5": {
                     "frequency": 10000.0,
-                    "gain": 3.0,
+                    "gain": -1.0000003576278687,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 0.5,
@@ -125,7 +125,7 @@
             "pitch-right": 0.0,
             "right": {
                 "band0": {
-                    "frequency": 80.0,
+                    "frequency": 105.0,
                     "gain": -6.0,
                     "mode": "RLC (BT)",
                     "mute": false,
@@ -137,7 +137,7 @@
                 },
                 "band1": {
                     "frequency": 150.0,
-                    "gain": 3.0,
+                    "gain": 5.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 1.2000000476837158,
@@ -159,7 +159,7 @@
                 },
                 "band3": {
                     "frequency": 1200.0,
-                    "gain": -2.000000238418579,
+                    "gain": -3.0,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 1.399999976158142,
@@ -170,7 +170,7 @@
                 },
                 "band4": {
                     "frequency": 4000.0,
-                    "gain": 1.499999761581421,
+                    "gain": -1.5,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 0.699999988079071,
@@ -181,7 +181,7 @@
                 },
                 "band5": {
                     "frequency": 10000.0,
-                    "gain": 3.0,
+                    "gain": -1.0000003576278687,
                     "mode": "RLC (BT)",
                     "mute": false,
                     "q": 0.5,
@@ -338,7 +338,7 @@
                 "knee": -5.999999523162842,
                 "makeup": 0.0,
                 "mute": false,
-                "ratio": 1.0,
+                "ratio": 1.7000000476837158,
                 "release-threshold": -100.0,
                 "release-time": 100.0,
                 "sidechain-custom-highcut-filter": false,
@@ -481,29 +481,7 @@
             "multiband_compressor#0",
             "equalizer#0",
             "bass_enhancer#0",
-            "stereo_tools#0",
             "limiter#0"
-        ],
-        "stereo_tools#0": {
-            "balance-in": 0.0,
-            "balance-out": 0.0,
-            "bypass": false,
-            "delay": 20.0,
-            "input-gain": 0.0,
-            "middle-level": 0.0,
-            "middle-panorama": 0.0,
-            "mode": "LR > LR (Stereo Default)",
-            "mutel": false,
-            "muter": false,
-            "output-gain": 0.0,
-            "phasel": false,
-            "phaser": true,
-            "sc-level": 1.0,
-            "side-balance": 0.0,
-            "side-level": 0.0,
-            "softclip": false,
-            "stereo-base": 0.09999999999999991,
-            "stereo-phase": 0.0
-        }
+        ]
     }
 }
