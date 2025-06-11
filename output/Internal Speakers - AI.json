@@ -245,14 +245,14 @@
         },
         "multiband_compressor#0": {
             "band0": {
-                "attack-threshold": -30.0,
+                "attack-threshold": -18.0,
                 "attack-time": 50.0,
                 "boost-amount": 5.999999046325684,
                 "boost-threshold": -72.0,
                 "compression-mode": "Downward",
                 "compressor-enable": true,
                 "external-sidechain": false,
-                "knee": -18.0,
+                "knee": -5.999999523162842,
                 "makeup": 0.0,
                 "mute": false,
                 "ratio": 4.0,
@@ -271,7 +271,7 @@
                 "stereo-split-source": "Left/Right"
             },
             "band1": {
-                "attack-threshold": -30.0,
+                "attack-threshold": -20.0,
                 "attack-time": 30.0,
                 "boost-amount": 5.999999046325684,
                 "boost-threshold": -72.0,
@@ -279,7 +279,7 @@
                 "compressor-enable": true,
                 "enable-band": true,
                 "external-sidechain": false,
-                "knee": -20.0,
+                "knee": -5.999999523162842,
                 "makeup": 0.0,
                 "mute": false,
                 "ratio": 3.0,
@@ -299,7 +299,7 @@
                 "stereo-split-source": "Left/Right"
             },
             "band2": {
-                "attack-threshold": -30.0,
+                "attack-threshold": -23.999998092651367,
                 "attack-time": 10.0,
                 "boost-amount": 5.999999046325684,
                 "boost-threshold": -72.0,
@@ -307,7 +307,7 @@
                 "compressor-enable": true,
                 "enable-band": true,
                 "external-sidechain": false,
-                "knee": -23.999412536621094,
+                "knee": -5.999999523162842,
                 "makeup": 0.0,
                 "mute": false,
                 "ratio": 2.0,
@@ -327,7 +327,7 @@
                 "stereo-split-source": "Left/Right"
             },
             "band3": {
-                "attack-threshold": -30.0,
+                "attack-threshold": -23.999998092651367,
                 "attack-time": 5.0,
                 "boost-amount": 5.999999046325684,
                 "boost-threshold": -72.0,
@@ -335,10 +335,10 @@
                 "compressor-enable": true,
                 "enable-band": true,
                 "external-sidechain": false,
-                "knee": -23.999412536621094,
+                "knee": -5.999999523162842,
                 "makeup": 0.0,
                 "mute": false,
-                "ratio": 1.7000000476837158,
+                "ratio": 1.0,
                 "release-threshold": -100.0,
                 "release-time": 100.0,
                 "sidechain-custom-highcut-filter": false,
@@ -495,7 +495,7 @@
             "mode": "LR > LR (Stereo Default)",
             "mutel": false,
             "muter": false,
-            "output-gain": 3.5,
+            "output-gain": 0.0,
             "phasel": false,
             "phaser": true,
             "sc-level": 1.0,
