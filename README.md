@@ -10,7 +10,9 @@
 
 TODO: Finish this section.
 
-### Included presets
+## Included presets
+
+### Speakers
 
 #### Speakers (Default)
 
@@ -18,9 +20,11 @@ General preset for speakers, designed to work best with small bookshelf speakers
 
 #### Laptop Speakers (Default)
 
-Preset targeted at laptop speakers, designed mainly for my laptop (Lenovo ThinkPad Edge E540), may or not not work well
+Preset targeted at laptop speakers, designed mainly for my laptop (Lenovo ThinkPad Edge E540), may or may not work well
 for other similar ThinkPad models. Designed to enhance bass as much as possible without creating distortion or
 negatively effecting other frequencies.
+
+### Headphones
 
 #### LG Tone Free FP5 (Default)
 
