@@ -91,11 +91,11 @@ and easier on your ears.
 
 ### Speakers
 
-#### Speakers (Default)
+##### Speakers
 
-General preset for speakers, designed to work best with small bookshelf speakers or a mini-system.
+General preset for speakers, designed to work best with small bookshelf/monitor speakers or a mini-system.
 
-#### Laptop Speakers (Default)
+##### Laptop Speakers
 
 Preset targeted at laptop speakers, designed mainly for my laptop (Lenovo ThinkPad Edge E540), may or may
 not work well for other similar ThinkPad models. Designed to enhance bass as much as possible without creating
@@ -103,6 +103,12 @@ distortion or negatively effecting other frequencies.
 
 ### Headphones
 
-#### LG Tone Free FP5 (Default / Reference EQ)
+The headphone presets have two variants each, the main differences between them are the equalizer settings.
 
-#### Sony MDR-XB950N1 (Default / Reference EQ)
+The "Default" version of each is configured in a similar to the way I setup the equalizer for the Speakers preset,
+and the configuration of the "Reference EQ" version is based on reference EQ curves obtained from [AutoEq](https://github.com/jaakkopasanen/AutoEq)
+
+The following headphone models are included:
+
+- LG Tone Free FP5
+- Sony MDR-XB950N1
