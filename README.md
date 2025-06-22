@@ -15,7 +15,7 @@ much as possible.
 
 Presets generally consist of the following effects (applied in this order, if present):
 
-##### Filters
+#### Filters
 
 Usually configured as two filters, first a high pass to cut out frequencies below a certain level, and then
 a low pass applied after to cut out upper frequencies.
@@ -24,19 +24,19 @@ These are applied to limit the overall frequency range of the output to prevent 
 speakers/headphones and to limit frequencies that are either not reproducible by the speakers/headphones
 being used, are not audible or that are distracting/annoying to the listener.
 
-##### Gate
+#### Gate
 
 Used to remove unwanted low-level background noise/hiss/static from the input so that it is not passed on to
 the next stage of the effects chain (compressor) to avoid being boosted/amplified unnecessarily.
 
-##### Upward Compressor
+#### Upward Compressor
 
-This is what raises the level of quiet parts of the input signal so they are more audible, resulting in
-the softer parts of the audio becoming louder, reducing some amount of dynamic range which is corrected/
-minimized as much as possible by the rest of the effects chain. This is different from normal compression,
-which works in the opposite manner, by making the loud parts of the audio quieter.
+This is what raises the level of quiet parts of the input signal so they are more audible, it does however
+reduce some amount of dynamic range which is corrected/minimized as much as possible by the rest of
+the effects chain. This is different from normal compression, which works in the opposite manner, by making
+the loud parts of the audio quieter.
 
-##### Multiband Compressor
+#### Multiband Compressor
 
 Used to lightly control the dynamic range of the output, by gently compressing different frequency bands
 individually, giving more precise control over how different parts of the spectrum are treated and helping to
@@ -44,7 +44,7 @@ smooth out volume differences across each frequency range. Excessive use of this
 reduce audio quality noticeably, so the presets favor a relatively low compression ratio to help preserve
 clarity.
 
-##### Equalizer
+#### Equalizer
 
 The secret sauce and the most subjective part of these presets, the settings used here are highly personal
 and should be treated as a general guideline only. This is most likely where you will do the majority of
@@ -56,12 +56,12 @@ low-end frequencies as much as possible without creating excessive booming/thump
 in the mid-range without making things sound thin/muddy, and make the highs as crisp/bright as I think is
 necessary to still sound good without creating undesirable stress on my ears when listening.
 
-##### Level Meter
+#### Level Meter
 
 Disabled by default in all presets, can be enabled to monitor the dynamics of the output and used as a tool
 to help make adjustments to other effects if necessary.
 
-##### Bass Loudness (all presets except Speakers) / Loudness (only used in Speakers preset)
+#### Bass Loudness (all presets except Speakers) / Loudness (only used in Speakers preset)
 
 Bass Loudness is completely optional and disabled by default in all presets that use it, and can be enabled
 to give a small, but nice enhancement to the bass frequencies if desired.
@@ -71,7 +71,7 @@ boosts/cuts based on the configured calibrated peak output desired from the spea
 This ensures that all frequencies are perceived equally as loud by the listener, which helps when listening to
 music at lower volumes (such as at night).
 
-##### Limiter
+#### Limiter
 
 This effect is used as a last line of defense to prevent clipping of the output caused by sudden changes in the
 input source volume caused by things such as poorly mixed audio, resulting in increased chances of distortion
@@ -81,7 +81,7 @@ Ideally you never want the output to exceed 0db in any situation as this could d
 I use a slightly more conservative threshold setting of -1db to ensure that the limiter always takes effect as
 early and quickly as possible in these situations.
 
-##### Crossfeed (only used in Headphones presets)
+#### Crossfeed (only used in Headphones presets)
 
 Completely optional, can be disabled if not desired. This effect helps to simulate the natural spatial effects
 of listening to music through speakers, and can make long listening sessions using headphones more comfortable
