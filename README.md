@@ -91,11 +91,11 @@ and easier on your ears.
 
 ### Speakers
 
-##### Speakers
+#### Speakers
 
 General preset for speakers, designed to work best with small bookshelf/monitor speakers or a mini-system.
 
-##### Laptop Speakers
+#### Laptop Speakers
 
 Preset targeted at laptop speakers, designed mainly for my laptop (Lenovo ThinkPad Edge E540), may or may
 not work well for other similar ThinkPad models. Designed to enhance bass as much as possible without creating
