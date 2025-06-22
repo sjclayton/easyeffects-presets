@@ -8,16 +8,17 @@
 
 ## Design of presets (explanation and ordering of effects)
 
-The included presets are based closely on [Digitalone1's Loudness Equalizer Presets](https://www.github.com/Digitalone1/EasyEffects-Presets)
-and generally follow the same layout and ordering when it comes to the effects that are applied
-(with some changes).
+The included presets are based partially on [Digitalone1's Loudness Equalizer Presets](https://www.github.com/Digitalone1/EasyEffects-Presets)
+and generally follow the same layout and ordering when it comes to the effects that are applied,
+with some changes/tweaks, targeted mainly to prioritize music listening while retaining dynamics as
+much as possible.
 
 Presets generally consist of the following effects (applied in this order, if present):
 
 ##### Filters
 
-Usually configured as two filters, one as a high pass to cut out frequencies below a certain level, and a low
-pass applied after to cut out upper frequencies.
+Usually configured as two filters, first a high pass to cut out frequencies below a certain level, and then
+a low pass applied after to cut out upper frequencies.
 
 These are applied to limit the overall frequency range of the output to prevent over-driving
 speakers/headphones and to limit frequencies that are either not reproducible by the speakers/headphones
@@ -25,9 +26,23 @@ being used, are not audible or that are distracting/annoying to the listener.
 
 ##### Gate
 
-##### Compressor
+Used to remove unwanted low-level background noise/hiss/static from the input so that it is not passed on to
+the next stage of the effects chain (compressor) to avoid being boosted/amplified unnecessarily.
+
+##### Upward Compressor
+
+This is what raises the level of quiet parts of the input signal so they are more audible, resulting in
+the softer parts of the audio becoming louder, reducing some amount of dynamic range which is corrected/
+minimized as much as possible by the rest of the effects chain. This is different from normal compression,
+which works in the opposite manner, by making the loud parts of the audio quieter.
 
 ##### Multiband Compressor
+
+Used to lightly control the dynamic range of the output, by gently compressing different frequency bands
+individually, giving more precise control over how different parts of the spectrum are treated and helping to
+smooth out volume differences across each frequency range. Excessive use of this type of compression can
+reduce audio quality noticeably, so the presets favor a relatively low compression ratio to help preserve
+clarity.
 
 ##### Equalizer
 
@@ -37,8 +52,8 @@ any adjustments you make to the preset(s). The particular sound I like when list
 music may not fit your taste.
 
 Generally my equalizer settings could be possibly considered somewhat aggressive, I try to emphasize the
-low-end frequencies as much as possible without creating too much excessive booming/thumping, maintain warmth
-in the mid-range without making things sound thin/muddy, and making the highs as crisp/bright as I think is
+low-end frequencies as much as possible without creating excessive booming/thumping, maintain warmth
+in the mid-range without making things sound thin/muddy, and make the highs as crisp/bright as I think is
 necessary to still sound good without creating undesirable stress on my ears when listening.
 
 ##### Level Meter
@@ -59,8 +74,8 @@ music at lower volumes (such as at night).
 ##### Limiter
 
 This effect is used as a last line of defense to prevent clipping of the output caused by sudden changes in the
-input source volume caused by things such as poorly mixed audio resulting in increased chances of distortion
-introduced by the other effects used above.
+input source volume caused by things such as poorly mixed audio, resulting in increased chances of distortion
+being introduced by the other effects used above.
 
 Ideally you never want the output to exceed 0db in any situation as this could damage your speakers/headphones.
 I use a slightly more conservative threshold setting of -1db to ensure that the limiter always takes effect as
@@ -68,7 +83,7 @@ early and quickly as possible in these situations.
 
 ##### Crossfeed (only used in Headphones presets)
 
-Completely optional and can be disabled if not desired. This effect helps to simulate the natural spatial effects
+Completely optional, can be disabled if not desired. This effect helps to simulate the natural spatial effects
 of listening to music through speakers, and can make long listening sessions using headphones more comfortable
 and easier on your ears.
 
@@ -82,9 +97,9 @@ General preset for speakers, designed to work best with small bookshelf speakers
 
 #### Laptop Speakers (Default)
 
-Preset targeted at laptop speakers, designed mainly for my laptop (Lenovo ThinkPad Edge E540), may or may not work well
-for other similar ThinkPad models. Designed to enhance bass as much as possible without creating distortion or
-negatively effecting other frequencies.
+Preset targeted at laptop speakers, designed mainly for my laptop (Lenovo ThinkPad Edge E540), may or may
+not work well for other similar ThinkPad models. Designed to enhance bass as much as possible without creating
+distortion or negatively effecting other frequencies.
 
 ### Headphones
 
