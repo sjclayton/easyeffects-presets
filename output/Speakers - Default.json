@@ -710,8 +710,8 @@
             "compressor#0",
             "multiband_compressor#0",
             "equalizer#0",
-            "level_meter#0",
             "loudness#0",
+            "level_meter#0",
             "limiter#0"
         ]
     }

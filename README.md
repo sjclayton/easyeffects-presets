@@ -56,11 +56,6 @@ low-end frequencies as much as possible without creating excessive booming/thump
 in the mid-range without making things sound thin/muddy, and make the highs as crisp/bright as I think is
 necessary to still sound good without creating undesirable stress on my ears when listening.
 
-#### Level Meter
-
-Disabled by default in all presets, can be enabled to monitor the dynamics of the output and used as a tool
-to help make adjustments to other effects if necessary.
-
 #### Bass Loudness (all presets except Speakers) / Loudness (only used in Speakers preset)
 
 Bass Loudness is completely optional and disabled by default in all presets that use it, and can be enabled
@@ -70,6 +65,11 @@ The Speakers preset uses the Loudness effect instead which uses equal loudness c
 boosts/cuts based on the configured calibrated peak output desired from the speaker system being used.
 This ensures that all frequencies are perceived equally as loud by the listener, which helps when listening to
 music at lower volumes (such as at night).
+
+#### Level Meter
+
+Disabled by default in all presets, can be enabled to monitor the dynamics of the output and used as a tool
+to help make adjustments to other effects if necessary.
 
 #### Limiter
 
